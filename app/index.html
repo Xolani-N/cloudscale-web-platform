@@ -93,6 +93,7 @@ nav h2 {
     background: #1e293b;
     padding: 30px;
     border-radius: 12px;
+    margin-bottom: 50px;
 }
 
 .about h2 {
@@ -103,6 +104,12 @@ nav h2 {
 .about p {
     line-height: 1.6;
     color: #cbd5e1;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
 }
 
 </style>
@@ -172,6 +179,31 @@ nav h2 {
             <p class="metric" id="time">--:--:--</p>
         </div>
 
+        <div class="card">
+            <h3>Docker Status</h3>
+            <p class="metric" id="docker">Running</p>
+        </div>
+
+        <div class="card">
+            <h3>GitHub Actions</h3>
+            <p class="metric" id="github">Passing</p>
+        </div>
+
+        <div class="card">
+            <h3>Stress Test</h3>
+            <p class="metric" id="stress">PASSED</p>
+        </div>
+
+        <div class="card">
+            <h3>System Health</h3>
+            <p class="metric" id="health">Healthy</p>
+        </div>
+
+        <div class="card">
+            <h3>Last Deployment</h3>
+            <p class="metric" id="deploy">Success</p>
+        </div>
+
     </section>
 
     <section class="about">
@@ -179,14 +211,18 @@ nav h2 {
         <h2>Project Overview</h2>
 
         <p>
-            This project demonstrates containerization,
-            infrastructure automation, cloud deployment,
-            monitoring and scaling strategies used in modern
-            DevOps environments.
+            CloudScale Platform is a Dockerized cloud dashboard
+            demonstrating containerization, CI/CD automation,
+            GitHub Actions, stress testing and monitoring concepts
+            used in modern DevOps and Cloud environments.
         </p>
 
     </section>
 
+</div>
+
+<div class="footer">
+    CloudScale Platform • DevOps Portfolio Project • Xolani Nhlabathi
 </div>
 
 <script>
